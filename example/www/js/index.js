@@ -101,6 +101,7 @@ var app = {
             desiredAccuracy: 10,
             stationaryRadius: 20,
             distanceFilter: 30,
+            locationTimeout: 0,
             notificationTitle: 'Background tracking',   // <-- android only, customize the title of the notification
             notificationText: 'ENABLED',                // <-- android only, customize the text of the notification
             activityType: "AutomotiveNavigation",       // <-- iOS-only
